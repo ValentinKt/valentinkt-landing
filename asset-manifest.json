@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/valentinkt-landing/static/css/main.92c8d4eb.css",
+    "main.js": "/valentinkt-landing/static/js/main.a63f58c8.js",
+    "static/js/453.2c57aa31.chunk.js": "/valentinkt-landing/static/js/453.2c57aa31.chunk.js",
+    "index.html": "/valentinkt-landing/index.html",
+    "main.92c8d4eb.css.map": "/valentinkt-landing/static/css/main.92c8d4eb.css.map",
+    "main.a63f58c8.js.map": "/valentinkt-landing/static/js/main.a63f58c8.js.map",
+    "453.2c57aa31.chunk.js.map": "/valentinkt-landing/static/js/453.2c57aa31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92c8d4eb.css",
+    "static/js/main.a63f58c8.js"
+  ]
+}
