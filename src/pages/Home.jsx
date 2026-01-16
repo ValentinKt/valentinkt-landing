@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaGithub, FaPython, FaReact } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { SiKotlin, SiMongodb, SiOpenjdk, SiPostgresql, SiTailwindcss } from "react-icons/si";
 import RepoCard from "../components/RepoCard";
 import {
   fetchGithubRepos,
@@ -54,8 +54,7 @@ export default function Home() {
               .
             </h1>
             <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/70 sm:text-lg">
-              Python pour l’automatisation et la data, React + Tailwind pour des interfaces modernes, et des
-              outils IA (LangChain/LangGraph) quand ça apporte de la valeur.
+              Python pour l’automatisation et la data, Java/Kotlin pour les applis robustes, React + Tailwind pour des interfaces modernes, SQL/NoSQL pour le stockage, et des outils IA (LangChain/LangGraph) quand ça apporte de la valeur.
             </p>
 
             <div className="mt-7 flex flex-wrap items-center gap-3">
@@ -88,12 +87,28 @@ export default function Home() {
                 Python
               </span>
               <span className="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-2 text-sm text-white/70 ring-1 ring-white/10">
+                <SiOpenjdk className="text-orange-200" />
+                Java
+              </span>
+              <span className="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-2 text-sm text-white/70 ring-1 ring-white/10">
+                <SiKotlin className="text-violet-200" />
+                Kotlin
+              </span>
+              <span className="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-2 text-sm text-white/70 ring-1 ring-white/10">
                 <FaReact className="text-emerald-200" />
                 React
               </span>
               <span className="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-2 text-sm text-white/70 ring-1 ring-white/10">
                 <SiTailwindcss className="text-sky-200" />
                 Tailwind
+              </span>
+              <span className="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-2 text-sm text-white/70 ring-1 ring-white/10">
+                <SiPostgresql className="text-sky-200" />
+                SQL
+              </span>
+              <span className="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-2 text-sm text-white/70 ring-1 ring-white/10">
+                <SiMongodb className="text-emerald-200" />
+                NoSQL
               </span>
               <span className="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-2 text-sm text-white/70 ring-1 ring-white/10">
                 IA: LangChain · LangGraph

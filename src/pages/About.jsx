@@ -31,8 +31,18 @@ export default function About() {
           <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-emerald-400/10 via-white/5 to-teal-400/10 p-6">
             <p className="text-sm font-medium text-white">Stack & intérêts</p>
             <ul className="mt-4 space-y-3 text-sm text-white/75">
-              <li className="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">Python · tooling · automation</li>
-              <li className="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">React · Tailwind · UI systems</li>
+              <li className="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+                Python · tooling · automation
+              </li>
+              <li className="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+                Java · Kotlin · backend
+              </li>
+              <li className="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+                React · Tailwind · UI systems
+              </li>
+              <li className="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+                SQL · NoSQL · data
+              </li>
               <li className="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">IA appliquée · LangChain · LangGraph</li>
               <li className="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">Open source · collaboration GitHub</li>
             </ul>
